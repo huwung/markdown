@@ -28,27 +28,27 @@
 
 但是， **apt-get** 找不到。
 
-然後需要做一个链接：
+然後需要做一個鏈接：
 
     sudo ln -s /usr/bin/nodejs /usr/bin/node
 
-不然可能会遇到如下 **ERROR**：
+不然可能會遇到如下 **ERROR**：
 
     /usr/bin/env: node: No such file or directory
     
-安装markdown2bootstrap到当前目录下
+安裝markdown2bootstrap到當前目錄下
 
     npm install markdown2bootstrap
     
-将markdown转换为html命令
+將markdown轉換為html命令
 
     ~/node_modules/.bin/markdown2bootstrap filename.md
     
-如果不想产生数字列表用-n参数
+如果不想產生數字列表用-n參數
 
     ~/node_modules/.bin/markdown2bootstrap -n filename.md
     
-最后一步将包拷到你的网站根目录下，例如 **~/www**
+最後一步將包拷到你的網站根目錄下，例如 **~/www**
 
     cp -r node_modules/markdown2bootstrap/bootstrap ~/www
     
