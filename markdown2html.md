@@ -52,4 +52,4 @@
 
     cp -r node_modules/markdown2bootstrap/bootstrap ~/www
     
-暫時就是這樣，，，    
+暫時就是這樣，，，    It worked for me.
