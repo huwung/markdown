@@ -26,7 +26,7 @@
     sudo apt-get install npm
     sudo apt-get install nodejs
 
-__但是， **apt-get** 找不到。__
+但是， **apt-get** 找不到，暫時沒空處理。
 
 然後需要做一個鏈接：
 
