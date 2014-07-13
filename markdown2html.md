@@ -26,7 +26,7 @@
     sudo apt-get install npm
     sudo apt-get install nodejs
 
-但是， **apt-get** 找不到。
+__但是， **apt-get** 找不到。__
 
 然後需要做一個鏈接：
 
@@ -44,7 +44,7 @@
 
     ~/node_modules/.bin/markdown2bootstrap filename.md
     
-如果不想產生數字列表用-n參數
+如果不想產生數字列表用 **-n** 參數
 
     ~/node_modules/.bin/markdown2bootstrap -n filename.md
     
